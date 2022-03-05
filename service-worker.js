@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mrrobotoe/tenzies-game/precache-manifest.ec5d63aed7ec7fcdc914c9097540554f.js"
+  "/tenzies-game/precache-manifest.708b9a44f122b82a041b92af9289d042.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mrrobotoe/tenzies-game/index.html", {
+workbox.routing.registerNavigationRoute("/tenzies-game/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
